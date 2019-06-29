@@ -18,7 +18,7 @@ $ docker run --rm -v $(pwd):/project -w /project whispersystems/signal-android:1
 $ python3 apkdiff/apkdiff.py build/outputs/apks/project-release-unsigned.apk path/to/SignalFromPlay.apk
 ```
 
-Note that the instructions above use a pre-built Signal Docker image from [Docker Hub](https://hub.docker.com/u/whispersystems/). If you wish to compile the image yourself, continue reading the longer version below.
+Note that the instructions above use a pre-built Signal Docker image from [Docker Hub](https://hub.docker.com/r/whispersystems/signal-android). If you wish to compile the image yourself, continue reading the longer version below.
 
 
 ***
